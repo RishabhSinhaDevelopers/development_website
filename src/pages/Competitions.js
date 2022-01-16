@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../containers/footer/Footer'
-import possibilityImage from '../assets/possibility.png';
+import possibilityImage from '../assets/ai2.gif';
 import '../containers/possibility/possibility.css';
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";

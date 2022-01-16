@@ -4,6 +4,9 @@ import { CTA, Navbar } from './components';
 import './App.css';
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Slider from './components/Slider'
+
+
 const App = () => {
   const { pathname } = useLocation();
 
@@ -20,6 +23,7 @@ const App = () => {
   <Possibility />
   <CTA />
   <Blog />
+  <Slider />
   <Footer />
 </div>)
   

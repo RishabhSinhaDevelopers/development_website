@@ -37,9 +37,7 @@ const Apple = () => (
             <Route path="/pitchnj" element={<Pitchnj />} />
             <Route path="/technovation" element={<Technovation />} />
             </Routes>
-           
-            
-        </Router>
+        </Router>        
     )
 
 
