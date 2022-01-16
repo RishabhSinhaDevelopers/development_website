@@ -93,3 +93,7 @@
   color: #ffffff;
   cursor: pointer;
 }
+.whatever {
+  display: flex;
+  justify-content: center;
+}

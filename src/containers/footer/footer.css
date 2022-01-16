@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
 
-  background: var(--color-footer);
+  background: #1d1d1d;
 }
 
 .header {
@@ -46,6 +46,7 @@
   font-family: var(--font-family);
   line-height: 21px;
   color: #fff;
+  background: #1d1d1d;
   word-spacing: 2px;
 }
 

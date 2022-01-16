@@ -21,14 +21,14 @@ useEffect(() => {
   </div>
   <div className="XSTEM__possibility-content">
     <h1 className="gradient__text">The Conrad Challenge</h1>
-    <p>Students will also prepare to pitch and compete for awards in various regional and national competitions such as the conrad challenge, Diamond Challenge, UMich, Blue Ocean, Cooper Hewitt, Seton Hall, and SXSA EDU.In these competitions, students will receive feedback from well-known founders and investors nationwide. All motivated students who have entrepreneurial interests are welcome and strongly encouraged to join!</p>
+    <p>If you are a student between the ages of 13-18, you can become an entrepreneur and make new friends by applying science, technology and innovation to solve problems with global impact. With the Challenge’s step-by-step guidance and the support of industry experts, you’ll expand your collaboration, creativity, critical thinking and communication skills. The result? Enter college and the 21st century workforce with the skills necessary to thrive.Students, teachers, experts, colleges and sponsors all agree… the Conrad Challenge is unlike any STEM or business competition out there. Say “no thanks” to science fairs and quiz bowls… Join us to create a sustainable planet and future today. </p>
   </div>
 </div>
 <div className="XSTEM__possibility section__padding" id="possibility">
   
   <div className="XSTEM__possibility-content">
-    <h1 className="gradient__text">The possibilities are <br /> enless.</h1>
-    <p>Students will also prepare to pitch and compete for awards in various regional and national competitions such as the conrad challenge, Diamond Challenge, UMich, Blue Ocean, Cooper Hewitt, Seton Hall, and SXSA EDU.In these competitions, students will receive feedback from well-known founders and investors nationwide. All motivated students who have entrepreneurial interests are welcome and strongly encouraged to join!</p>
+    <h1 className="gradient__text">Want Some  <br /> Help?.</h1>
+    <p>Follow the Conrad Challenge on CanopyLAB for step-by-step instructions and additional resources to guide your Challenge experience. Through our interactive platform, teams work their way through the Challenge steps with helpful tools and resources developed to engage and complement the team’s research and work. Participants also have access to tips for brainstorming and instructional videos along with direct access to a network of educators, Conrad Challenge Alumni and industry-specific experts.</p>
   </div>
   <div className="XSTEM__possibility-image">
     <img src={possibilityImage} alt="possibility" />

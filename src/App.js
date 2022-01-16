@@ -24,6 +24,7 @@ const App = () => {
   <CTA />
   <Blog />
   <Slider />
+  <div><br/></div>
   <Footer />
 </div>)
   

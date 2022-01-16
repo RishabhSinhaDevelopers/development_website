@@ -21,15 +21,15 @@ useEffect(() => {
     <img src={possibilityImage} alt="possibility" />
   </div>
   <div className="XSTEM__possibility-content">
-    <h1 className="gradient__text">The possibilities are <br /> enless.</h1>
-    <p>Students will also prepare to pitch and compete for awards in various regional and national competitions such as the conrad challenge, Diamond Challenge, UMich, Blue Ocean, Cooper Hewitt, Seton Hall, and SXSA EDU.In these competitions, students will receive feedback from well-known founders and investors nationwide. All motivated students who have entrepreneurial interests are welcome and strongly encouraged to join!</p>
+    <h1 className="gradient__text">The NFTE <br /> challenges</h1>
+    <p>Every fall, the Network for Teaching Entrepreneurship (NFTE) launches a new set of challenges in the NFTE World Series of Innovation (WSI). We invite you to think big and submit your ideas to advance the UN Global Goals. The best entries win cash prizes and anyone between the ages of 13 and 24 is eligible to enter.</p>
   </div>
 </div>
 <div className="XSTEM__possibility section__padding" id="possibility">
   
   <div className="XSTEM__possibility-content">
-    <h1 className="gradient__text">The possibilities are <br /> enless.</h1>
-    <p>Students will also prepare to pitch and compete for awards in various regional and national competitions such as the conrad challenge, Diamond Challenge, UMich, Blue Ocean, Cooper Hewitt, Seton Hall, and SXSA EDU.In these competitions, students will receive feedback from well-known founders and investors nationwide. All motivated students who have entrepreneurial interests are welcome and strongly encouraged to join!</p>
+    <h1 className="gradient__text">About NFTE</h1>
+    <p>NFTE partners with thousands of schools, youth development organizations and community groups in communities across the U.S. and abroad to offer a unique set of high-impact entrepreneurship education programs based on our innovative, experiential curriculum, which integrates lean startup tools and methodologies with project-based learning. Since our founding, we've served well over a million students.</p>
   </div>
   <div className="XSTEM__possibility-image">
     <img src={possibilityImage} alt="possibility" />
