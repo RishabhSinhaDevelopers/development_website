@@ -1,5 +1,5 @@
 import React from 'react';
-import ai from '../../assets/ai.png';
+import ai from '../../assets/ai.gif';
 import './header.css';
 
 const Header = () => (

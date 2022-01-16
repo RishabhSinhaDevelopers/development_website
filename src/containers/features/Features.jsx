@@ -1,5 +1,5 @@
 import React from 'react';
-import Feature from '../../components/feature/Feature';
+import Feature from './Feature1';
 import './features.css';
 
 const featuresData = [
@@ -27,10 +27,11 @@ const Features = () => (
       <h1 className="gradient__text">The precious secrets of starup success taught for free.</h1>
       <p>Join to learn more.</p>
     </div>
-    <div className="XSTEM__features-container">
-      {featuresData.map((item, index) => (
+    <div className="XSTEM__features-container" >
+      <div style={{color: 'white'}}>{featuresData.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
-      ))}
+      ))}</div>
+      
     </div>
   </div>
 );

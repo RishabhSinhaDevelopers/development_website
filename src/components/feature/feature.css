@@ -20,7 +20,7 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.04em;
-  color: #fff;
+  color: black;
 }
 
 .XSTEM__features-container__feature-title div {
@@ -35,6 +35,7 @@
   flex: 2;
   max-width: 390px;
   display: flex;
+  color: black;
 }
 
 .XSTEM__features-container_feature-text p {
@@ -42,7 +43,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: var(--color-text);
+  color: black;
 }
 
 @media screen and (max-width: 550px) {

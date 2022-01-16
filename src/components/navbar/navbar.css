@@ -1,3 +1,10 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .header {
   background: var(--color-footer);
   font-size: 24;
@@ -9,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  position: sticky;
   padding: 2rem 6rem;
 }
 
@@ -178,11 +185,32 @@
     top: 20px;
     border-radius: 25px;
     box-shadow: 100 30px 200px rgb(0, 0, 0);
+    align-content: center;
   }
 
   .XSTEM__navbar-menu_container-links-sign {
     display: block;
     border-radius: 25px;
     box-shadow: 100 30px 200px rgb(0, 0, 0);
+    align-content: center;
   }
+}
+
+.p {
+}
+p:after {
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+p:hover {
+  color: #ffffff;
+}
+p:hover:after {
+  width: 100%;
 }
