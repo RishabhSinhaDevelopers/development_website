@@ -7,10 +7,10 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="gpt3__navbar">
-      <div className="gpt3__navbar-links">
-        <div className="gpt3__navbar-links_container">
-        <div className="gpt3__navbar-links_logo">
+    <div className="XSTEM__navbar">
+      <div className="XSTEM__navbar-links">
+        <div className="XSTEM__navbar-links_container">
+        <div className="XSTEM__navbar-links_logo">
           <p><strong><Link to="/" style={{ color: '#FFF', textDecoration: 'none'}}> XSTEM </Link></strong></p>
         </div>
           <p>          <Link to="/" style={{ color: '#FFF', textDecoration: 'none'}}> Home </Link>
@@ -30,13 +30,13 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-      <div className="gpt3__navbar-menu">
+      <div className="XSTEM__navbar-menu">
         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
         {toggleMenu && (
-        <div className="gpt3__navbar-menu_container scale-up-center">
-          <div className="gpt3__navbar-menu_container-links">
+        <div className="XSTEM__navbar-menu_container scale-up-center">
+          <div className="XSTEM__navbar-menu_container-links">
           <p> <Link to="/" style={{ color: '#FFF'}}> Home </Link></p>
           <p><Link to="/about" style={{ color: '#FFF', textDecoration: 'none'}}> About </Link></p>
           <p><Link to="/work" style={{ color: '#FFF', textDecoration: 'none'}}> Work </Link></p>

@@ -16,15 +16,15 @@ function Challenges() {
   return (
     <div>
       <Navbar />
-      <div className="gpt3__blog section__padding" id="blog">
-    <div className="gpt3__blog-heading">
+      <div className="XSTEM__blog section__padding" id="blog">
+    <div className="XSTEM__blog-heading">
       <h1 className="gradient__text">Here are, <br /> our challenges.</h1>
     </div>
-    <div className="gpt3__blog-container">
-      {/* <div className="gpt3__blog-container_groupA">
+    <div className="XSTEM__blog-container">
+      {/* <div className="XSTEM__blog-container_groupA">
       <Article imgUrl={blog01} date="Jan 7, 2022" text="Diamond Challenge" />
       </div> */}
-      <div className="gpt3__blog-container_groupB">
+      <div className="XSTEM__blog-container_groupB">
         <Article href="/conrad" imgUrl={blog02} date="Nov 5, 2022" text="Conrad Challenge" /> 
         <Article href="/blueocean" imgUrl={blog03} date="Feb 8, 2022" text="Blue Ocean" />
         <Article href="/nfte" imgUrl={blog04} date="Dec 15, 2022" text="NFTE World Series of Innovation" />

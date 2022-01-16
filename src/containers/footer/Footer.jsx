@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 
 
 const Footer = () => (
-  <div className="gpt3__footer section__padding">
-    <div className="gpt3__footer-heading">
+  <div className="XSTEM__footer section__padding">
+    <div className="XSTEM__footer-heading">
       <h1 className="gradient__text">Join us and Learn the Crucial Skills of the 21st Century.</h1>
     </div>
-    <div className="gpt3__footer-links">
-      <div className="gpt3__footer-links_logo">
+    <div className="XSTEM__footer-links">
+      <div className="XSTEM__footer-links_logo">
         <p className="header">XSTEM</p>
       </div>
-      <div className="gpt3__footer-links_div">
+      <div className="XSTEM__footer-links_div">
       <p><Link to="/" style={{ color: '#FFF' }}> Home </Link></p>
           <p><Link to="/about" style={{ color: '#FFF' }}> About </Link></p>
           <p><Link to="/work" style={{ color: '#FFF' }}> Work </Link></p>
@@ -26,7 +26,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="gpt3__footer-copyright">
+    <div className="XSTEM__footer-copyright">
       <p>
         @2022 XSTEM All rights reserved.</p>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
-import Feature from '../containers/whatGPT3/WhatGPT3';
+import Feature from '../containers/whatXSTEM/WhatXSTEM';
 import '../containers/features/features.css';
-import '../containers/whatGPT3/whatGPT3.css';
+import '../containers/whatXSTEM/whatXSTEM.css';
 import Navebar from '../components/navbar/Navbar';
 import Footer from '../containers/footer/Footer';
 import { useEffect } from "react";

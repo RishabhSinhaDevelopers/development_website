@@ -22,12 +22,12 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
-    <div className="gpt3__features-heading">
+  <div className="XSTEM__features section__padding" id="features">
+    <div className="XSTEM__features-heading">
       <h1 className="gradient__text">The precious secrets of starup success taught for free.</h1>
       <p>Join to learn more.</p>
     </div>
-    <div className="gpt3__features-container">
+    <div className="XSTEM__features-container">
       {featuresData.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
       ))}

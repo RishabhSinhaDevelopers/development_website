@@ -3,7 +3,7 @@ import { google, slack, atlassian, dropbox, shopify } from './imports';
 import './brand.css';
 
 const Brand = () => (
-  <div className="gpt3__brand section__padding">
+  <div className="XSTEM__brand section__padding">
     <div>
       <img className='img' src={google} alt="not loaded"/>
     </div>
