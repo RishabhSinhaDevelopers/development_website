@@ -17,7 +17,6 @@ const Navbar = () => {
 </p>
           <p><Link to="/about" style={{ color: '#FFF', textDecoration: 'none'}}> About </Link></p>
           <p><Link to="/work" style={{ color: '#FFF', textDecoration: 'none'}}> Work </Link></p>
-          <p><Link to="/pedagogy" style={{ color: '#FFF', textDecoration: 'none'}}> Pedagogy </Link></p>
           <p><Link to="/challenges" style={{ color: '#FFF', textDecoration: 'none'}}> Challenges </Link></p>
           <p>
           <Link to="/gallery" style={{ color: '#FFF', textDecoration: 'none'}}> Gallery </Link>
@@ -27,6 +26,9 @@ const Navbar = () => {
           </p>
           <p>
           <Link to="/resources" style={{ color: '#FFF', textDecoration: 'none'}}> Resources </Link>
+          </p>
+          <p>
+          <Link to="/pedagogy" style={{ color: '#FFF', textDecoration: 'none'}}> Contact </Link>
           </p>
         </div>
       </div>

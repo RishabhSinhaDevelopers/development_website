@@ -4,8 +4,8 @@ import { CTA, Navbar } from './components';
 import './App.css';
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Slider from './components/Slider'
-
+import Slider from './components/Slider';
+import ContactComponent from './components/contactComponent/ContactComponent';
 
 const App = () => {
   const { pathname } = useLocation();
@@ -24,6 +24,7 @@ const App = () => {
   <CTA />
   <Blog />
   <Slider />
+  <ContactComponent />
   <div><br/></div>
   <Footer />
 </div>)
