@@ -3,8 +3,9 @@ import Navbar from '../components/navbar/Navbar';
 import Footer from '../containers/footer/Footer';
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import possibilityImage from '../assets/possibility.png';
 import '../containers/possibility/possibility.css'
+import ReactPlayer from 'react-player'
+import BlueOceanSponsor from '../assets/blueoceansponsors.png';
 
 function Cooperhewitt(){
   const { pathname } = useLocation();
@@ -15,28 +16,60 @@ useEffect(() => {
 
   return( <div>
       <Navbar />
-      
-      <div className="XSTEM__possibility section__padding" id="possibility">
-  <div className="XSTEM__possibility-image">
-    <img src={possibilityImage} alt="possibility" />
-  </div>
-  <div className="XSTEM__possibility-content">
-    <h1 className="gradient__text">The Copper Hewwitt <br /> chalange.</h1>
-    <p>Design an outdoor chair inspired by Cooper Hewitt’s world-renowned collection that will be functional, comfortable, and unexpected. The winning design will be manufactured by Target for exclusive use in Cooper Hewitt, Smithsonian Design Museum’s Arthur Ross Terrace and Garden. Cooper Hewitt is located in New York City in the historic Carnegie Mansion. The enclosed garden was an original feature of the mansion and is directly across the street from New York’s famed Central Park.</p>
-  </div>
+      <div><br/><br/><br/></div>
+
+      <h1 className="stupid">The Cooper Hewitt challenge</h1>
+        <div className="why">
+        <p className="estupido">Cooper Hewitt, Smithsonian Design Museum launched the National High School Design Competition in 2016. Every year, students around the country are challenged to design a solution to a unique scenario, inspired by Cooper Hewitt’s rich collection and stimulating exhibitions.
+          </p>
+        </div>
+        <div className="stupido">
+            <ReactPlayer url='https://www.youtube.com/watch?v=tsiKV--q_4I' />
+        </div>
+
+        <br/>
+        <div><br/><br/><br/></div>
+
+        <h1 className="stupid">Previous Winners: ADITI JHA, NIDHI MALPANI, AND YASMINA MURADOVA</h1>
+        <div className="why">
+          <p className="estupido">
+          Aditi, Nidhi, and Yasmina entered the competition as eleventh grade students at duPont Manual High School in Louisville, KY, Westwood High School in Austin, TX, and The Gatton Academy in Bowling Green, KY. Their project, Aegle, plays on people’s empathy and natural inclination to help others by encouraging self-care through a physical-mechanical plant and an app that responds to an individual’s well-being
+          </p>
+        </div>   
+        <div className="stupido">
+            <ReactPlayer url='https://www.youtube.com/watch?v=Nlq_JwJPEVg' />
+        </div>
+        <div><br/><br/><br/></div>
+
+        <h1 className="stupid">Previous Winners: PRIYA AGARWAL AND ANIKA AGNIHOTRI</h1>
+        <div className="why">
+          <p className="estupido">
+          Priya and Anika entered the competition as eleventh grade students at the Academy for Mathematics, Science, and Engineering in Rockaway, NJ. They created Storily, a design that allows users to turn their family into storybook characters and insert them into riveting and educational picture books that reflect different cultures and experiences. 
+          </p>
+        </div>
+        <div className="stupido">
+            <ReactPlayer url='https://www.youtube.com/watch?v=CF10ikhx730' />
+        </div>
+        <div><br/><br/><br/></div>
+
+        <h1 className="stupid">Previous Winners: DANIELA CONTRERAS AND LUCAS DUNOYER</h1>
+        <div className="why">
+          <p className="estupido">
+          Daniela and Lucas entered the competition as twelfth graders from Miami, FL. They created Sound Gardens, a solution to sound pollution in urban areas that suppresses stressful city sounds, improves life quality, and provides a safer habitat for people as well as wildlife surrounding the city. Their design is inspired by the sounds of wind in nature passing through foliage and by rattle seeds
+          </p>
+        </div>
+        <div className="stupido">
+            <ReactPlayer url='https://www.youtube.com/watch?v=ZaoEXrpGmB0' />
+        </div>
+<div><br/><br/><br/></div>
+
+<h1 className="stupid">Partners</h1>
+
+<div className="estupido">
+  <img src={BlueOceanSponsor} alt="dont worry about it" />
 </div>
-<div className="XSTEM__possibility section__padding" id="possibility">
-  
-  <div className="XSTEM__possibility-content">
-    <h1 className="gradient__text"> Awards and<br /> Prizes!</h1>
-    <p>Cooper Hewitt will feature the designs of five finalists and four regional honorable mentions in a special online exhibition celebrating the creativity of promising young designers.
-Target will produce a limited edition of seven of the winning chair design. Five of the chairs will be installed for exclusive use in Cooper Hewitt’s Arthur Ross Terrace and Garden. The winning designer will receive the other two chairs for his or her personal use.</p>
-  </div>
-  <div className="XSTEM__possibility-image">
-    <img src={possibilityImage} alt="possibility" />
-  </div>t
-</div>
-    
+<div><br/><br/><br/></div>
+<h1 className="stupid"><a href="https://www.cooperhewitt.org/education/student-design-challenge/">To learn more click here</a></h1>
       <Footer />
   </div>)
 }

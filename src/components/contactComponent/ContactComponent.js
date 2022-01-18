@@ -29,7 +29,7 @@ function ContactComponent(props) {
         <div style={{display: 'flex',  justifyContent:'center'}}>
             <form action="" onSubmit={sendEmail}>
               <div class="formWord">
-                <h2>Say Hello!</h2>
+                <h2>Have Any Questions?</h2>
                 <span>Full Name</span>
                 <br />
                 <input class="input100" type="text" name="fullName" required />

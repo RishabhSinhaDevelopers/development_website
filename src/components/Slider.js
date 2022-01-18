@@ -37,9 +37,9 @@ export default function Slider() {
                     <div
                     key={obj.id}
                     className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
-                    ><img 
+                    ><a href="https://drive.google.com/drive/u/2/folders/1F-4Ini-s599j6e_ZUB23c5rm1b3dlvEK"><img 
                     src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} 
-                    alt='rest assured'/>
+                    alt='rest assured'/></a>
                         
                     </div>
                 )

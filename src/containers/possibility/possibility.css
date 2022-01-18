@@ -88,3 +88,58 @@
     height: 100%;
   }
 }
+
+.stupido {
+  display: flex;
+  justify-content: center;
+  border-radius: 20mm;
+}
+.stupid {
+  font-size: 80px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+}
+
+.estupido {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.why {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 700px) {
+  .estupido {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .estupido1 {
+    display: flex;
+    color: yellow;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+}
+
+.estupido1 {
+  display: flex;
+  color: yellow;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
