@@ -16,7 +16,17 @@ function Work() {
     setPageNumber(1);
   }
 
-  
+  function changePage(offSet){
+    setPageNumber(prevPageNumber => prevPageNumber + offSet);
+  }
+
+  function changePageBack(){
+    changePage(-1)
+  }
+
+  function changePageNext(){
+    changePage(+1)
+  }
 
   
   
@@ -26,8 +36,18 @@ function Work() {
     <div>
       <Navbar />
       
-    <div className="App">
-     
+      <div className="App">
+      <header className="App-header">
+        
+        <p> Page {pageNumber} of {numPages}</p>
+        { pageNumber > 1 && 
+        <button onClick={changePageBack}>Previous Page</button>
+        }
+        {
+          pageNumber < numPages &&
+          <button onClick={changePageNext}>Next Page</button>
+        }
+      </header>
       <center>
         <div>
           <Document file="/sample.pdf" onLoadSuccess={onDocumentLoadSuccess}>
