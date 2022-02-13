@@ -1,27 +1,52 @@
-import React from 'react'
-import Navebar from '../components/navbar/Navbar';
+import Navbar from '../components/navbar/Navbar';
 import Footer from '../containers/footer/Footer';
-import Feature from '../containers/features/Features';
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import React, {useState} from 'react'
+import { Document,Page } from 'react-pdf/dist/esm/entry.webpack';
+import '../App.css';
+import '../containers/features/features.css';
+
 
 function Work() {
-    const { pathname } = useLocation();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
 
-    return (
-        
-        
+  function onDocumentLoadSuccess({numPages}){
+    setNumPages(numPages);
+    setPageNumber(1);
+  }
+
+  
+
+  
+  
+
+  return (
+    
+    <div>
+      <Navbar />
+      
+    <div className="App">
+     
+      <center>
         <div>
-            <Navebar />
-            <Feature />
-            <Footer />
+          <Document file="/sample.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+            {Array.from(
+              new Array(numPages),
+              (el,index) => (
+                <Page 
+                  key={`page_${index+1}`}
+                  pageNumber={index+1}
+                />
+              )
+            )}
+          </Document>
         </div>
-    )
+      </center>
+    </div>
+    <Footer />
+    </div>
+  );
 }
 
-
-export default Work
+export default Work;

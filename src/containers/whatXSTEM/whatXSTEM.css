@@ -8,7 +8,6 @@
   background: var(--color-footer);
   border-radius: 1rem;
 
-  /* ff 3.6+ */
   background: -moz-radial-gradient(
     circle at 30% -100%,
     #ffffff 25%,
@@ -16,7 +15,6 @@
     rgb(255, 255, 255) 100%
   );
 
-  /* safari 5.1+,chrome 10+ */
   background: -webkit-radial-gradient(
     circle at 30% -100%,
     #ffffff 25%,
@@ -24,7 +22,6 @@
     rgb(255, 255, 255) 100%
   );
 
-  /* opera 11.10+ */
   background: -o-radial-gradient(
     circle at 30% -100%,
     #ffffff 25%,
@@ -32,7 +29,6 @@
     rgb(255, 255, 255) 100%
   );
 
-  /* ie 10+ */
   background: -ms-radial-gradient(
     circle at 30% -100%,
     #ffffff 25%,
@@ -41,7 +37,6 @@
   );
   box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
 
-  /* global 92%+ browsers support */
   background: radial-gradient(
     circle at 30% -100%,
     #ffffff 25%,
@@ -56,12 +51,10 @@
   display: flex;
 }
 
-/* Customizing feature component as per needs */
 .XSTEM__whatXSTEM-feature .XSTEM__features-container__feature {
   margin: 0;
 }
 
-/* Customizing feature component as per needs */
 .XSTEM__whatXSTEM-feature .XSTEM__features-container_feature-text {
   max-width: 700px;
 }
@@ -102,7 +95,6 @@
   margin-top: 2rem;
 }
 
-/* Customizing feature component as per needs */
 .XSTEM__whatXSTEM-container .XSTEM__features-container__feature {
   flex: 1;
   margin: 1rem;
@@ -111,7 +103,6 @@
   flex-direction: column;
 }
 
-/* Customizing feature component as per needs */
 .XSTEM__whatXSTEM-container .XSTEM__features-container_feature-text {
   margin-top: 0.5rem;
 }
@@ -129,12 +120,10 @@
 }
 
 @media screen and (max-width: 650px) {
-  /* Customizing feature component as per needs */
   .XSTEM__whatXSTEM-feature .XSTEM__features-container__feature {
     flex-direction: column;
   }
 
-  /* Customizing feature component as per needs */
   .XSTEM__whatXSTEM-feature .XSTEM__features-container_feature-text {
     margin-top: 0.5rem;
   }
@@ -146,7 +135,6 @@
 }
 
 @media screen and (max-width: 350px) {
-  /* Customizing feature component as per needs */
   .XSTEM__whatXSTEM-container .XSTEM__features-container__feature {
     margin: 1rem 0;
     min-width: 100%;

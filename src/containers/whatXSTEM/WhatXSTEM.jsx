@@ -17,6 +17,7 @@ const WhatXSTEM = () => (
       <Feature title="Maintanence" text="Learn how to maintain and grow the compan" />
       <Feature title="Awards" text="Pitch your business to judges to win prestigious awards" />
     </div>
+    <br /><br /><br /><br /><br />
   </div>
 );
 

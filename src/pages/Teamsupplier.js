@@ -12,7 +12,6 @@ import Img24 from '../assets/img24.jpeg';
 import './gallery.css';
 import CloseIcon from '@material-ui/icons/Close';
 
-
 const Teamsupplier = () => {
     let data=[
         {
@@ -56,12 +55,12 @@ const Teamsupplier = () => {
             imgSrc: Img24,
         },
     ]
+
     const [model, setModel]=useState(false);
     const [tempimgSrc, setTempImgSrc]=useState('');
     const getImg =(imgSrc)=>{
         setTempImgSrc(imgSrc);
         setModel(true);
-
     }
 
     return (
@@ -75,7 +74,8 @@ const Teamsupplier = () => {
                 return(
                     
                     <div className="pics" key={index} onClick={()=>getImg(item.imgSrc)}>
-                        <img src={item.imgSrc} alt="not loaded" style={{width: '100%', WebkitBorderRadius: '15px'}}/></div>
+                        <img src={item.imgSrc} alt="not loaded" style={{width: '100%', WebkitBorderRadius: '15px'}}/>
+                    </div>
                         
                     
                 )

@@ -6,6 +6,7 @@ import { useLocation } from "react-router-dom";
 import '../containers/possibility/possibility.css'
 import ReactPlayer from 'react-player'
 import ConradSponsors from '../assets/conradsponsors.png';
+
 function Conrad(){
   const { pathname } = useLocation();
 

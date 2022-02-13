@@ -5,6 +5,7 @@ import '../containers/possibility/possibility.css';
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ContactComponent from '../components/contactComponent/ContactComponent'
+
 function Competitions (){
   const { pathname } = useLocation();
 

@@ -16,7 +16,6 @@ const Footer = () => (
       <p><Link to="/" style={{ color: '#FFF' }}> Home </Link></p>
           <p><Link to="/about" style={{ color: '#FFF' }}> About </Link></p>
           <p><Link to="/work" style={{ color: '#FFF' }}> Work </Link></p>
-          <p><Link to="/pedagogy" style={{ color: '#FFF' }}> Pedagogy </Link></p>
           <p><Link to="/challenges" style={{ color: '#FFF' }}> Challenges </Link></p>
           <p><Link to="/gallery" style={{ color: '#FFF' }}> Gallery </Link></p>
 

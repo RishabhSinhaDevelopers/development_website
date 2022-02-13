@@ -11,12 +11,12 @@ const Navbar = () => {
       <div className="XSTEM__navbar-links">
         <div className="XSTEM__navbar-links_container">
         <div className="XSTEM__navbar-links_logo">
-          <p><strong><Link to="/" style={{ color: '#FFF', textDecoration: 'none'}}> XSTEM </Link></strong></p>
+          <p>
+            <strong><Link to="/" style={{ color: '#FFF', textDecoration: 'none'}}> XSTEM </Link></strong>
+          </p>
         </div>
-          <p>          <Link to="/" style={{ color: '#FFF', textDecoration: 'none'}}> Home </Link>
-</p>
+          <p><Link to="/" style={{ color: '#FFF', textDecoration: 'none'}}> Home </Link></p>
           <p><Link to="/about" style={{ color: '#FFF', textDecoration: 'none'}}> About </Link></p>
-          <p><Link to="/work" style={{ color: '#FFF', textDecoration: 'none'}}> Work </Link></p>
           <p><Link to="/challenges" style={{ color: '#FFF', textDecoration: 'none'}}> Challenges </Link></p>
           <p>
           <Link to="/gallery" style={{ color: '#FFF', textDecoration: 'none'}}> Gallery </Link>
@@ -28,7 +28,10 @@ const Navbar = () => {
           <Link to="/resources" style={{ color: '#FFF', textDecoration: 'none'}}> Resources </Link>
           </p>
           <p>
-          <Link to="/pedagogy" style={{ color: '#FFF', textDecoration: 'none'}}> Contact </Link>
+          <Link to="/requirements" style={{ color: '#FFF', textDecoration: 'none'}}> Requirements </Link>
+          </p>
+          <p>
+          <Link to="/contact" style={{ color: '#FFF', textDecoration: 'none'}}> Contact </Link>
           </p>
         </div>
       </div>
@@ -41,8 +44,6 @@ const Navbar = () => {
           <div className="XSTEM__navbar-menu_container-links">
           <p> <Link to="/" style={{ color: '#FFF'}}> Home </Link></p>
           <p><Link to="/about" style={{ color: '#FFF', textDecoration: 'none'}}> About </Link></p>
-          <p><Link to="/work" style={{ color: '#FFF', textDecoration: 'none'}}> Work </Link></p>
-          <p><Link to="/pedagogy" style={{ color: '#FFF', textDecoration: 'none'}}> Pedagogy </Link></p>
           <p><Link to="/challenges" style={{ color: '#FFF', textDecoration: 'none'}}> Challenges </Link></p>
           <p>
           <Link to="/gallery" style={{ color: '#FFF', textDecoration: 'none'}}> Gallery </Link>
@@ -50,8 +51,20 @@ const Navbar = () => {
           <p>
           <Link to="/team" style={{ color: '#FFF', textDecoration: 'none'}}> Team </Link>
           </p>
+          <p>
+          <Link to="/resources" style={{ color: '#FFF', textDecoration: 'none'}}> Resources </Link>
+          </p>
+          <p>
+          <Link to="/requirements" style={{ color: '#FFF', textDecoration: 'none'}}> Requirements </Link>
+          </p>
+          <p>
+          <Link to="/contact" style={{ color: '#FFF', textDecoration: 'none'}}> Contact </Link>
+          </p>
           </div>
-          
+          <div className="gpt3__navbar-menu_container-links-sign">
+            <a href="https://register.capturepoint.com/reg/login.cfm?cuBIB%2F%2FClZwtomy3Erh3n%2B7brRVPXoxk9V2eh8RP2faSwM5QkImp%2FfA%3D">
+            <button type="button">Pay Dues</button></a>
+          </div>
         </div>
         )}
       </div>

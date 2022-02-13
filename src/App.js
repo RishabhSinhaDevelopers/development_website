@@ -1,10 +1,11 @@
-import React from 'react';
-import { Footer, Blog, Possibility, Features, WhatXSTEM, Header } from './containers';
+import React, {Suspense} from 'react';
+import { Footer, Blog, Possibility, Features, Header } from './containers';
 import { CTA, Navbar } from './components';
 import './App.css';
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Slider from './components/Slider';
+const Slider =React.lazy(()=>import('./components/Slider'))
+const WhatXSTEM=React.lazy(()=>import('./containers/whatXSTEM/WhatXSTEM'))
 
 const App = () => {
   const { pathname } = useLocation();
@@ -17,12 +18,13 @@ const App = () => {
     <Navbar />
     <Header />
   </div>
-  <WhatXSTEM />
+  <Suspense fallback={<div>Loading...</div>}><WhatXSTEM /></Suspense>
   <Features />
   <Possibility />
   <CTA />
   <Blog />
-  <Slider />
+  <Suspense fallback={<div>Loading...</div>}><Slider /></Suspense>
+  
   <div><br/></div>
   <Footer />
 </div>)

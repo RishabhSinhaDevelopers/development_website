@@ -13,27 +13,11 @@
   padding: 2rem 6rem;
 }
 
-.XSTEM__navbar:hover {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--color-text);
-
-  padding: 2rem 6rem;
-}
 .XSTEM__navbar-links {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-
-.XSTEM__navbar-links:hover {
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: var(--color-text);
 }
 
 .XSTEM__navbar-links_logo {
@@ -48,11 +32,6 @@
 .XSTEM__navbar-links_container {
   display: flex;
   flex-direction: row;
-}
-.XSTEM__navbar-links_container:hover {
-  display: flex;
-  flex-direction: row;
-  color: var(--color-text);
 }
 
 .XSTEM__navbar-sign {

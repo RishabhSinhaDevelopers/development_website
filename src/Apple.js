@@ -1,6 +1,6 @@
 import React from 'react'
 import App from './App';
-import About from './pages/About';
+import About from './pages/Aboutcompiler';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Competitions from './pages/Competitions';
 import Work from './pages/Work';
@@ -20,9 +20,9 @@ const Apple = () => (
         <Router>
             <Routes>
             <Route path="/" element={<App />} />
-            <Route path="/pedagogy" element={<Competitions />} />
+            <Route path="/contact" element={<Competitions />} />
             <Route path="/about" element={<About />} />
-            <Route path="/work" element={<Work />} />
+            <Route path="/requirements" element={<Work />} />
             <Route path="/challenges" element={<Challenges />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/work" element={<Work />} />
