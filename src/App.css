@@ -4,7 +4,15 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-
+.Appy {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
 body {
   background: var(--color-bg);
 }
@@ -126,4 +134,8 @@ a {
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+}
+
+.guppy {
+  border-radius: 10px;
 }
